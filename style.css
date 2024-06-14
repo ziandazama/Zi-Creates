@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #131314;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: #ebebe9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-brand:hover{
+    color: blue;
+}
+
+.nav-link{
+    color: #ebebe9;
+
+}
+
+.active{
+    color: #ebebe9;
+}
+
+section {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    background-color: #131314;
+    color: #ebebe9;
+}
+
+/*links*/
+
+
+button a {
+    text-decoration: none;
+    color: #131314;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #131314
+  }
+  
+  div a {
+    text-decoration: none;
+    color: #ebebe9
+  }
+  /*Landing Page Styling*/
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+  
+  
+  .animatedtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #131314;
+    color: #ebebe9;
+  }
+  #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  #home p span.typed-text {
+    font-family: "VT323", monospace;
+    color: #dbf059;
+  
+  }
+  #home p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  #home p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+/*pages*/
+h2 {  
+    font-size: 86px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    color: #ebebe9;
+    margin-left: 60px;
+}
+
+.content {
+    margin-top: 45px;
+}
+
+h3{
+    font-family: "VT323", monospace;
+    color: #dbf059;
+    font-size: 43px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ebebe9;
+}
+
+#aboutmecontent {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 60% 40%;
+  justify-content: content;
+  
+}
+
+.imgdesktop {
+    border-radius: 25px;
+    height: 720px;
+    width:480px;
+    margin: 60px;
+}
+
+.pixel{
+  font-family: "VT323", monospace;
+  color: #dbf059;
+  font-size: 48px;
+}
+
+.arrow{
+  width: 50px;
+  height: 50px;
+}
+
+.pagedisplay {
+  display: block;
+}
+.columnlist {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 50% 50%;
+  justify-content:start;
+}
+
+li{
+  list-style-type: none;
+  color: #ebebe9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+li img .software{
+ width: 25px;
+ height: 25px;
+}
+
+.icons{
+  height: 50px;
+  width: 50px;
+}
+
+.collab { 
+    font-size: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    color: #ebebe9;
+}
+#contact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*footer*/
+footer{
+  background-color: #dbf059;
+}
+form{
+  margin: 10px;
+}
+h4{
+  font-family: "VT323", monospace;
+  color: #131314;
+  margin: 10px;
+}
+.footertext{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #131314;
+  text-decoration: none;
+}
+.grid-container{
+  display: grid;
+  align-items: start;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  column-gap: 10px;
+}
+
+/*projects page*/
+.btn-group button {
+  background-color: #131314; 
+  border-bottom: 1px solid #dbf059; 
+  color: #ebebe9;
+  padding: 10px 24px;
+  cursor: pointer; 
+  width: 100%;
+  display: block;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+
+.btn-group button:hover {
+  background-color: #0000;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 75%;
+}
+
+/* Make the image responsive */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  filter: blur(8px);
+  object-fit: cover; /* This resizes the image to fill the container */
+}
+
+.container img:hover{
+  filter: blur(0px);
+}
+/* Make the image responsive */
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+/*media queries*/
+@media screen and (max-width: 768px) {  /* Targets screens up to 768px wide */
+  
+  #aboutmecontent {
+    display: grid;  /* Reset to grid for potential conflicts  */
+    grid-template-columns: 1fr;  /* One column for stacking */
+    align-items: start;
+    justify-content: start;
+  }
+
+}
+
+@media screen and (max-width: 768px) {  /* Targets screens up to 768px wide */
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: Distributes content evenly */
+  }
+
+  .newslettersu, .sitemap, .socialmedia {  /* Assuming the renamed class */
+    flex: 1;  /* Makes each section take up equal space */
+  }
+}
+
+/*small device*/
+@media screen and (max-width: 425px) {  
+  
+  #aboutmecontent {
+    display: grid;  /* Reset to grid for potential conflicts  */
+    grid-template-columns: 1fr;  /* One column for stacking */
+    align-items: start;
+    justify-content: start;
+  }
+
+}
+@media screen and (max-width: 425px) {  
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: Distributes content evenly */
+  }
+
+  .newslettersu, .sitemap, .socialmedia {  /* Assuming the renamed class */
+    flex: 1;  /* Makes each section take up equal space */
+  }
+}
+
+
+
+
+

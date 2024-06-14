@@ -1,0 +1,51 @@
+body{
+    background-color: #131314;
+}
+
+h2 {  
+    font-size: 86px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    color: #ebebe9;
+    margin-left: 60px;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-flow: wrap; 
+    justify-content: space-around;
+  }
+  .cardtitles{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    color: #131314;
+  }
+  .bigblock{
+    background-color: #dbf059;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+  }
+  .cardsp{
+    color: #131314;
+  }
+  
+  .content{
+    margin-left: 10px;
+    place-items: center;
+    display: grid;
+  }
+  .contentimg{
+    margin-top: 30px;
+  }
+  /*buttons*/
+
+.btn {
+    font-family: "VT323", monospace;
+    color: #131314;
+    background-color: #dbf059;
+    
+}
+
+ 
